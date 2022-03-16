@@ -1,0 +1,23 @@
+{
+  "name": "instagramcypressautomation",
+  "version": "1.0.0",
+  "description": "instagram automation ",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "automation",
+    "cypress"
+  ],
+  "author": "Roman Pydlyak",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.2",
+    "prettier": "^2.6.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
